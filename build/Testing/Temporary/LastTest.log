@@ -1,0 +1,43 @@
+Start testing: May 27 17:52 CEST
+----------------------------------------------------------
+1/2 Testing: Algo_D_PATH_TEST
+1/2 Test: Algo_D_PATH_TEST
+Command: "/home/hdd/workspace_cpp/MPAL/build/test/algo_d_nav_exe"
+Directory: /home/hdd/workspace_cpp/MPAL/build/test
+"Algo_D_PATH_TEST" start time: May 27 17:52 CEST
+Output:
+----------------------------------------------------------
+Running 2 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Algo_D_PATH_TEST" end time: May 27 17:52 CEST
+"Algo_D_PATH_TEST" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: LIDAR_TEST
+2/2 Test: LIDAR_TEST
+Command: "/home/hdd/workspace_cpp/MPAL/build/test/lidar_exe"
+Directory: /home/hdd/workspace_cpp/MPAL/build/test
+"LIDAR_TEST" start time: May 27 17:52 CEST
+Output:
+----------------------------------------------------------
+Running 1 test case...
+unknown location(0): [4;31;49mfatal error: in "test_lidar/test_diar": memory access violation at address: 0x00000004: no mapping at fault address[0;39;49m
+/home/hdd/workspace_cpp/MPAL/test/test_lidar.cpp(52): [1;36;49mlast checkpoint: "test_diar" test entry[0;39;49m
+
+[1;31;49m*** 1 failure is detected in the test module "LIDAR"
+[0;39;49m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"LIDAR_TEST" end time: May 27 17:52 CEST
+"LIDAR_TEST" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 27 17:52 CEST

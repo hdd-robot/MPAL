@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/mpaltest.dir/test_d_nav.cpp.o CMakeFiles/mpaltest.dir/test_lidar.cpp.o CMakeFiles/mpaltest.dir/__/src/Obstacle.cpp.o CMakeFiles/mpaltest.dir/__/src/Point.cpp.o  -o mpaltest -lboost_unit_test_framework 

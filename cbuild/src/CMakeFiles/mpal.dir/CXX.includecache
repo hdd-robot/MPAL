@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hdd/workspace_cpp/MPAL/src/Stat.cpp
+Stat.h
+/home/hdd/workspace_cpp/MPAL/src/Stat.h
+
+/home/hdd/workspace_cpp/MPAL/src/Stat.h
+string
+-
+iostream
+-
+ctime
+-
+fstream
+-
+
